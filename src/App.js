@@ -1,16 +1,24 @@
-import "./App.css";
+import { styled } from "styled-components";
 import Hero from "./components/hero";
-import HotelBrand from "./components/hotels";
 import NavBar from "./components/navbar";
+import Brands from "./components/TrendingBrands/brands";
+import HotelBrand from "./components/TrendingHotels/hotels";
+import ExlusiveBrands from "./components/exclusivebrands";
 
 function App() {
   return (
-    <div className="App">
+    <AppContainer>
       <NavBar />
       <Hero />
       <HotelBrand />
-    </div>
+      <Brands />
+      <ExlusiveBrands />
+    </AppContainer>
   );
 }
 
 export default App;
+
+const AppContainer = styled.div`
+  background-color: #d8d8d8;
+`;
