@@ -7,9 +7,9 @@ import square from "../../assets/images/square.png";
 import felix from "../../assets/images/felix.png";
 import st from "../../assets/images/st.png";
 
-const HOTEL_BRAND_DATA = [
+const SPACE_DATA = [
   {
-    title: "The Vineyard",
+    title: "Hotel Star",
     location: "Berkshire",
     rating: "5.0",
     status: "Fully Booked",
@@ -74,4 +74,4 @@ const HOTEL_BRAND_DATA = [
   },
 ];
 
-export default HOTEL_BRAND_DATA;
+export default SPACE_DATA;

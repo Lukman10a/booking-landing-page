@@ -1,21 +1,20 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import vineyard from "../../assets/images/vineyard.png";
 import location from "../../assets/images/location.png";
 import next from "../../assets/images/next.png";
 import star from "../../assets/icons/star.svg";
-import HOTEL_BRAND_DATA from "./hotelbranddata";
+import SPACE_DATA from "./spacedata";
 
-// console.log(HOTEL_BRAND_DATA);
+console.log(SPACE_DATA);
 
-const HotelBrand = () => {
-  const [hotelBrandData, setHotelBrandData] = useState(HOTEL_BRAND_DATA);
+const Space = () => {
+  const [spaceData, setSpaceBrandData] = useState(SPACE_DATA);
   return (
-    <HotelBrandContainer>
-      <h1>Trending Hotels</h1>
-      <h3>Experience luxury beyond your expectations in the lap of nature</h3>
+    <SpaceContainer>
+      <h1>Available Hotel Spaces </h1>
+      <h3>Unlock Your Creative Haven: get Your Dream Space Today</h3>
       <CardContainer>
-        {hotelBrandData.map((data) => {
+        {spaceData.map((data) => {
           return (
             <Card key={data.title}>
               <CardImage src={data.img} alt="Hotel Image" />
@@ -41,13 +40,13 @@ const HotelBrand = () => {
         <p>View All</p>
         <img src={next} alt="" />
       </Button>
-    </HotelBrandContainer>
+    </SpaceContainer>
   );
 };
 
-export default HotelBrand;
+export default Space;
 
-const HotelBrandContainer = styled.div`
+const SpaceContainer = styled.div`
   padding: 40px;
 `;
 const CardContainer = styled.div`

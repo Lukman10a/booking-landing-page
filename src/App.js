@@ -4,6 +4,8 @@ import NavBar from "./components/navbar";
 import Brands from "./components/TrendingBrands/brands";
 import HotelBrand from "./components/TrendingHotels/hotels";
 import ExlusiveBrands from "./components/exclusivebrands";
+import Space from "./components/AvailabeSpaces/spaces.js";
+import Testimonial from "./components/testimonial";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <HotelBrand />
       <Brands />
       <ExlusiveBrands />
+      <Space />
+      <Testimonial />
     </AppContainer>
   );
 }
