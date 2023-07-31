@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Front-End Development of a Responsive Website Homepage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the code for a fully functional and responsive website homepage, created by [Your Name] as part of the second stage of the hiring process for the position of Front-end Developer.
 
-## Available Scripts
+The code is based on the Figma design linked below, and is written in HTML5, CSS3, JavaScript, and ReactJS. The homepage is fully responsive and works well on various devices and screen sizes.
 
-In the project directory, you can run:
+## Requirements
 
-### `npm start`
+* **Figma Design:** The Figma design for the homepage can be found at [Figma Design Link](https://www.figma.com/file/8xpE4RJMNkdCC19Z1QsNqc/Untitled?type=design&node-id=1%3A98&mode=design&t=tsKOvrD154ETwsoC-1).
+* **Responsive Design:** The homepage is fully responsive and works well on various devices and screen sizes. This was achieved by using a laptop-first approach and by using media queries to adjust the layout for different screen sizes.
+* **HTML/CSS:** The code is written in clean, semantic HTML and CSS. Appropriate classes and IDs are used for styling, and the code is easy to maintain and understand.
+* **Images and Assets:** Placeholder images and assets are used throughout the code. If the Figma design includes custom icons or graphics, these have been replaced with high-quality, responsive images.
+* **Navigation Menu:** A responsive navigation menu is implemented that collapses into a hamburger menu on smaller screens. This ensures that the navigation is always accessible, regardless of the device being used.
+* **Animations:** Subtle animations are added to enhance the user experience. These animations are used to create a more engaging and visually appealing website.
+* **Cross-Browser Compatibility:** The code is tested in Chrome and Firefox and is compatible with all major web browsers.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Evaluation Criteria
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The submission will be evaluated based on the following criteria:
 
-### `npm test`
+* **Fidelity to Design:** How closely the implementation matches the provided Figma design.
+* **Responsive Design:** The responsiveness of the website across different devices.
+* **Code Quality:** The cleanliness and organization of the HTML, CSS, and JavaScript code.
+* **User Experience:** How well interactive elements and navigation are implemented.
+* **Performance:** The loading speed and overall performance of the website.
+* **Creativity:** Any additional touches or improvements that are added to enhance the design.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instructions
 
-### `npm run build`
+To run the code, clone the repository and install the dependencies using `npm install`. Then, start the development server using `npm start`. The homepage will be available at `http://localhost:3000`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **Deployed Website:** [Deployed Website Link](https://booking-homepage-site.netlify.app/)
+* **Repository:** [Repository Link](https://github.com/Lukman10a/booking-landing-page/)
