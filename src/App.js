@@ -6,6 +6,7 @@ import HotelBrand from "./components/TrendingHotels/hotels";
 import ExlusiveBrands from "./components/exclusivebrands";
 import Space from "./components/AvailabeSpaces/spaces.js";
 import Testimonial from "./components/testimonial";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ExlusiveBrands />
       <Space />
       <Testimonial />
+      <Footer />
     </AppContainer>
   );
 }

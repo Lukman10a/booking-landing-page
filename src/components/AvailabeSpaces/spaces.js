@@ -48,12 +48,24 @@ export default Space;
 
 const SpaceContainer = styled.div`
   padding: 40px;
+  display: flex;
+  flex-direction: column;
 `;
 const CardContainer = styled.div`
   display: grid;
+  gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (min-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 `;
 const Card = styled.article`
   border-radius: 10px;
