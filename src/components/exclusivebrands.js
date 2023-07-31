@@ -145,6 +145,8 @@ const ExclusiveBrandContainer = styled.div`
 
 const BrandContainer = styled.div`
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -152,8 +154,8 @@ const BrandContainer = styled.div`
 `;
 
 const ImageContainer = styled.div`
-  width: 50%;
-  max-width: 500px;
+  /* width: 50%;
+  max-width: 500px; */
 
   @media (max-width: 1200px) {
     width: 50%;
@@ -166,14 +168,14 @@ const ImageContainer = styled.div`
 `;
 
 const BrandImage = styled.img`
-  width: 100%; /* Make the image fill the container width */
+  width: 100%;
 `;
 
 const RightContainer = styled.div`
   background-color: #ffeff6;
-  width: 50%; /* Set both ImageContainer and RightContainer to 50% width */
-  padding: 80px;
-  gap: 20px;
+  width: 50%;
+  padding: 51px;
+  gap: 16px;
   display: flex;
   flex-direction: column;
 
@@ -183,7 +185,7 @@ const RightContainer = styled.div`
 
   @media (max-width: 768px) {
     padding: 40px;
-    width: 89%;
+    width: 85%;
     gap: 15px;
   }
 
@@ -192,13 +194,19 @@ const RightContainer = styled.div`
     width: 78%;
     gap: 10px;
   }
+
+  @media (max-width: 320px) {
+    padding: 30px;
+    width: 75%;
+    gap: 8px;
+  }
 `;
 
 const Button = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: flex-end;
+  align-self: flex-start;
   gap: 10px;
   background-color: #ffff;
   color: #811141;

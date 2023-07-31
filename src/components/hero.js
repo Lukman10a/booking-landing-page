@@ -9,7 +9,7 @@ const Hero = () => {
       <HeroImage src={hero_img} alt="" />
       <HeroContent>
         <HeroTitle>FIND A HOME FOR YOUR DESIGNS</HeroTitle>
-        <p>pop ups in top class hotels around the world</p>
+        <SubTitle>pop ups in top class hotels around the world</SubTitle>
         <InputContainer>
           <InputField type="text" placeholder="Enter your text here..." />
           <Button>
@@ -25,7 +25,6 @@ export default Hero;
 
 const HeroContainer = styled.div`
   width: 100%;
-
   position: relative;
 `;
 const HeroImage = styled.img`
@@ -49,7 +48,11 @@ const HeroContent = styled.div`
     padding: 30px 20px;
   }
   @media (max-width: 375px) {
+    width: 130%;
     padding: 40px 10px;
+  }
+  @media (max-width: 320px) {
+    padding: 70px;
   }
 `;
 
@@ -62,9 +65,32 @@ const HeroTitle = styled.h1`
     font-size: 26px;
   }
 
+  @media (max-width: 425px) {
+    font-weight: 100;
+    font-size: 18px;
+  }
+
   @media (max-width: 375px) {
     font-weight: 100;
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  @media (max-width: 320px) {
+    font-weight: 100;
+    font-size: 14px;
+  }
+`;
+
+const SubTitle = styled.p`
+  @media (max-width: 425px) {
+    font-size: 12px;
+  }
+  @media (max-width: 375px) {
+    font-size: 10px;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 8px;
   }
 `;
 
@@ -78,6 +104,11 @@ const InputContainer = styled.div`
     flex-direction: column;
     margin-top: 5px;
     gap: 5px;
+  }
+
+  @media (max-width: 320px) {
+    margin-top: 2%;
+    gap: 4px;
   }
 `;
 
@@ -95,6 +126,10 @@ const InputField = styled.input`
 
   @media (max-width: 375px) {
     padding: 6px;
+  }
+  @media (max-width: 320px) {
+    padding: 5px;
+    font-size: 14px;
   }
 `;
 
@@ -115,5 +150,9 @@ const Button = styled.button`
 
   @media (max-width: 375px) {
     padding: 2px 6px;
+  }
+
+  @media (max-width: 320px) {
+    padding: 2px 4px;
   }
 `;
