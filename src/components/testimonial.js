@@ -61,24 +61,43 @@ const TestimonialContainer = styled.div`
   flex-direction: column;
   gap: 40px;
   padding: 40px;
+
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
 `;
+
 const CardContainer = styled.div`
   display: flex;
-  /* align-items: center; */
   justify-content: space-around;
   gap: 40px;
-  /* padding: 40px; */
+  flex-wrap: wrap;
+
+  @media (max-width: 1200px) {
+    /* flex-direction: column; */
+  }
+  @media (max-width: 768px) {
+    /* flex-direction: column; */
+  }
 `;
+
 const Card = styled.div`
   background-color: #fff;
   border-radius: 16px;
   padding: 20px;
+  width: 300px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
+
 const TitleContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
 `;
+
 const Button = styled.button`
   display: flex;
   justify-content: center;
@@ -92,6 +111,7 @@ const Button = styled.button`
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.2s;
+
   &:hover {
     background-color: #9e1e55;
   }

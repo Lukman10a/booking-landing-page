@@ -30,24 +30,27 @@ const NavContainer = styled.nav`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 10px 0px;
 `;
 
 const NavImage = styled.img``;
 
 const NavList = styled.ul`
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 2.5rem;
 
-  @media (max-width: 768px) {
-    display: none;
-  }
   @media (max-width: 1200px) {
     gap: 1.2rem;
+  }
+  @media (max-width: 768px) {
+    gap: 1rem;
+  }
+
+  @media (max-width: 425px) {
+    display: none;
   }
 `;
 
