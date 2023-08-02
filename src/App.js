@@ -27,5 +27,4 @@ export default App;
 
 const AppContainer = styled.div`
   background-color: #d8d8d8;
-  /* position: absolute; */
 `;

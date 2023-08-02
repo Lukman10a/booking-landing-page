@@ -74,10 +74,8 @@ const CardContainer = styled.div`
   flex-wrap: wrap;
 
   @media (max-width: 1200px) {
-    /* flex-direction: column; */
   }
   @media (max-width: 768px) {
-    /* flex-direction: column; */
   }
 `;
 

@@ -45,7 +45,7 @@ const HeroContent = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
-    padding: 30px;
+    /* padding: 30px; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
