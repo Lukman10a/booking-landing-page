@@ -37,22 +37,25 @@ const HeroContent = styled.div`
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
-  width: 80%;
+  width: 50%;
 
   @media (max-width: 1024px) {
     width: 90%;
   }
 
   @media (max-width: 768px) {
-    width: 120%;
-    padding: 30px 20px;
+    width: 100%;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   @media (max-width: 375px) {
-    width: 130%;
+    width: 100%;
     padding: 40px 10px;
   }
   @media (max-width: 320px) {
-    padding: 70px;
+    padding: 70px 10px;
   }
 `;
 
