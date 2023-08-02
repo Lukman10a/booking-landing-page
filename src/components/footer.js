@@ -40,7 +40,7 @@ const Footer = () => {
             <InputField type="text" placeholder=" Enter Your Email Address" />
             <Button>Subscribe</Button>
           </InputContainer>
-          <p>mailto:theteam@hotelsfashion.com</p>
+          {/* <p>mailto:theteam@hotelsfashion.com</p> */}
           <LogoContainer>
             <BiLogoFacebook />
             <FaLinkedinIn />
