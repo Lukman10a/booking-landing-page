@@ -31,7 +31,7 @@ const Footer = () => {
           <p>Reviews</p>
           <p>Events</p>
         </div>
-        <div>
+        <RightFooterConntainer>
           <p>
             Get updates about available spaces, weekly digest of our most
             important activities and more in your email
@@ -40,14 +40,14 @@ const Footer = () => {
             <InputField type="text" placeholder=" Enter Your Email Address" />
             <Button>Subscribe</Button>
           </InputContainer>
-          {/* <p>mailto:theteam@hotelsfashion.com</p> */}
+          <p>mailto:theteam@hotelsfashion.com</p>
           <LogoContainer>
             <BiLogoFacebook />
             <FaLinkedinIn />
             <BiLogoInstagram />
             <AiOutlineTwitter />
           </LogoContainer>
-        </div>
+        </RightFooterConntainer>
       </FooterContainer>
       <FooterButtom>
         <span>Hotels Fashion</span>
@@ -83,6 +83,12 @@ const FooterContainer = styled.footer`
     gap: 40px;
     text-align: center;
   }
+`;
+
+const RightFooterConntainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 `;
 
 const InputContainer = styled.div`
