@@ -50,6 +50,7 @@ const SpaceContainer = styled.div`
   padding: 40px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 `;
 const CardContainer = styled.div`
   display: grid;

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import tobams from "../../assets/images/tobams.png";
 import next from "../../assets/images/next.png";
 import TRENDING_BRAND_DATA from "./trendingbranddata";
 
@@ -22,7 +21,7 @@ const Brands = () => {
         {trendingBrandData.map((item) => {
           return (
             <Card key={item.title}>
-              <CardImage src={tobams} alt="Hotel Image" />
+              <CardImage src={item.img} alt="" />
               <CardTitle>{item.title}</CardTitle>
               <div>{item.detail}</div>
             </Card>
@@ -44,6 +43,7 @@ const BrandContainer = styled.div`
   padding: 40px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 `;
 const CardContainer = styled.div`
   display: grid;
