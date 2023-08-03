@@ -7,31 +7,31 @@ const Footer = () => {
   return (
     <>
       <FooterContainer>
-        <div>
+        <FooterContentsContainer>
           <h4>Helpful Tips</h4>
           <p>How it Works</p>
           <p>Rent Space</p>
           <p>Hotels Dashboard</p>
           <p>Trending Hotels</p>
           <p>Verified Brands</p>
-        </div>
-        <div>
+        </FooterContentsContainer>
+        <FooterContentsContainer>
           <h4>Quicklinks</h4>
           <p>About Us</p>
           <p>FAQs</p>
           <p>Terms of Service</p>
           <p>Privacy Policy</p>
           <p>Cookie Policy</p>
-        </div>
-        <div>
+        </FooterContentsContainer>
+        <FooterContentsContainer>
           <h4>Discover</h4>
           <p>Discover</p>
           <p>City Guide</p>
           <p>Blog</p>
           <p>Reviews</p>
           <p>Events</p>
-        </div>
-        <RightFooterConntainer>
+        </FooterContentsContainer>
+        <FooterContentsContainer>
           <p>
             Get updates about available spaces, weekly digest of our most
             important activities and more in your email
@@ -47,7 +47,7 @@ const Footer = () => {
             <BiLogoInstagram />
             <AiOutlineTwitter />
           </LogoContainer>
-        </RightFooterConntainer>
+        </FooterContentsContainer>
       </FooterContainer>
       <FooterButtom>
         <span>Hotels Fashion</span>
@@ -85,12 +85,11 @@ const FooterContainer = styled.footer`
   }
 `;
 
-const RightFooterConntainer = styled.div`
+const FooterContentsContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
+  gap: 15px;
+  align-items: flex-start;
 `;
 
 const InputContainer = styled.div`
